@@ -26,8 +26,7 @@ import { diagnoseFailure, FAILURE_TAXONOMY } from './server/taxonomy.js';
 
 async function startServer() {
   const app = express();
-  const PORT = 3000;
-
+const PORT = Number(process.env.PORT) || 3000;
   // Initialize in-memory and file-based state
   initAuditLedger();
   initTransactionsData();
