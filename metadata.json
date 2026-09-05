@@ -1,0 +1,6 @@
+{
+  "name": "RecoverAI",
+  "description": "AI-assisted Revenue Recovery Decision Engine for failed payments with counterfactual strategy simulation, guardrails, and audit ledger.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

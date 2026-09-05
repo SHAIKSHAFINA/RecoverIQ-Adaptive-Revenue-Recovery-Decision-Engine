@@ -1,0 +1,13 @@
+{
+  "maxRetries": 3,
+  "maxNotifications": 2,
+  "highValueThreshold": 25000,
+  "fraudThreshold": 0.7,
+  "minRecoveryProbability": 0.15,
+  "interventionBudget": 25000,
+  "budgetSpent": 4283,
+  "recoveryWindowHours": 72,
+  "maxNotifications24h": 2,
+  "cooldownHours": 12,
+  "maxConsecutiveFailedInterventions": 2
+}
